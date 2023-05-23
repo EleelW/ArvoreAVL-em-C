@@ -237,6 +237,7 @@ int main() {
             case 2:
                 printf("\tDigite o valor a ser removido: ");
                 scanf(" %d", &valor);
+                raiz = remover(raiz, valor);
                 break;
             case 3:
                 imprimir(raiz, 1);
